@@ -11,13 +11,13 @@ This is part of kwaai hackathon to use mimOE runtime, it uses the following reso
 
 The project contains a main frontend app built with angular, and it uses 2 backends:
 - first backend running at `8080` serves the dataset (private dataset for this project)
-- second backend running at `8083` server the mAI (please read more at this [doc](https://github.com/mimik-ai/mimik-ai-developer-guide))
+- second backend running at `8083` serves the mAI (please read more at this [doc](https://github.com/mimik-ai/mimik-ai-developer-guide))
 
 The frontend app is a template intended to send emergency messages to the *console chat* for classification and summary purposes using mAI coordinator and mILM agents.
 
-> **please note:** the second backend is what server the `mAI`, which is the coordinator that operates on multiple ai assistants known as `mILM`
+> **please note:** the second backend is what serves the `mAI`, which is the coordinator that operates on multiple ai assistants known as `mILM`
 
-## FrontendResponsePipeline
+## mim mai frontend messages
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
 
@@ -51,11 +51,11 @@ https://www.npmjs.com/package/angular-plotly.js
 
 ### Video
 
-<img src="readme_img/scr.gif" width=300 />
+<img src="readme_img/scr.gif" width=500 />
 
 <br/>
 
-Please note, in the above demo, the query is as following. It is then used for classification and summary purposes using mAI coordinator and mILM agents (seen above as assistant 1, assistant 2).
+Please note, in the above demo, the query is as following. It is then used for classification and summary purposes using mAI coordinator and mILM agents (assistant-1, assistant-2).
 
 > given categories [ "news", "direct", "social", "aid_centers", "aid_related", "buildings" ... ] assistant-1, please share top 5 categories for "UN reports Leogane 80-90 destroyed. Only Hospital St. Croix functioning. Needs supplies desperately.", assistant-2, please share only 3 main categories of these.
 
