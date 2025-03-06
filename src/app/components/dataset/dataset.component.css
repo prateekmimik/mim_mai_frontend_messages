@@ -1,0 +1,38 @@
+div#messages {
+    display: flex;
+    flex: 1;
+    min-height: 200px;
+    padding: 0;
+}
+
+div#categories {
+    display: flex;
+    flex: 1;
+    min-height: 200px;
+}
+
+div > ul {
+    list-style-type: decimal;
+    min-height: 200px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+div#messages > ul > li {
+    width: fit-content;
+    cursor: pointer;
+    background-color: burlywood;
+    margin-top: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+div#categories > ul > li {
+    width: fit-content;
+    background-color: burlywood;
+    margin-top: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}

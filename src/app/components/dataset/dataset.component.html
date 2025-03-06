@@ -1,0 +1,12 @@
+<div id="messages">
+    <h4>messages</h4>
+    <ul>
+        <li *ngFor="let item of getItems()" (click)="toggleDetail(item)">{{ item }}</li>
+    </ul>
+</div>
+<div id="categories">
+    <h4>categories</h4>
+    <ul>
+        <li *ngFor="let item of getCategories()">{{ item }}</li>
+    </ul>
+</div>

@@ -1,0 +1,29 @@
+div#wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+div#wrapper> h2 {
+    display: flex;
+    flex: 0.1;
+    min-height: 100px;
+    flex-direction: column;
+}
+
+div#wrapper > PlotComponent {
+    display: flex;
+    flex: 0.4;
+    min-height: 300px;
+    flex-direction: column;
+}
+
+div#wrapper > DatasetComponent {
+    display: flex;
+    flex: 0.5;
+    min-height: 400px;
+    flex-direction: column;
+}
